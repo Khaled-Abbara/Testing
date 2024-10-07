@@ -1,10 +1,10 @@
 Summary of Session 1
 by Khalid
 
-##What is React?
+## What is React?
 React is a frontend library developed by facebook that uses a virtual DOM to keep track of what the user does  instead of updating the DOM.
 
-##React design philosophy (React Mentality) 
+## React design philosophy (React Mentality) 
 
 We divide the website into reusable components. 
 Each compenent is writen as a function that displays jsx. 
