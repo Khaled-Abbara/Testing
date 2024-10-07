@@ -52,7 +52,41 @@ console.log("Hi ${name}, you are ${age}, and you are ${Cool}");
 greeting(name, age, colourful);
 ```
 
-## React file hierarchy
+## Hierarchy in React
+
+1. index.html Which containes a react script tag
+
+code:
+```HTML 
+<script type="module" src="/src/main.tsx"></script>
+```
+
+2. main.tsx which containes an 'App' Component
+
+code:
+```Javascript
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+```
+
+3. App.tsx which containes componenets of your liking
+
+code example:
+```Javascript
+function App() {
+  return (
+    <>
+      <Header />
+      <SearchBox />
+      <Menu />
+      <Footer />
+    </>
+  );
+}
+```
 
 
 
