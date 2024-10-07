@@ -21,16 +21,39 @@ the code is written like a root structure of plant or a christmas tree, where on
 
 Javascript Extensible Markup Language or Javascript XML is an extenstion to JS, here is an example
 
-```const Monkey = <h1>Hello, Copy Paste Developer!</h1>;```
+```Javascript
+const Monkey = <h1>Hello, Copy Paste Developer!</h1>;
+```
 
 This is not HTML inside JS, Infact it is just Javascript playing dress up. JSX is a subset of Javascript.
 
 ### What is Typescript
 
-Typescript is a Programing language that is Strongly typed meaning you have to declare what data type it is inside a variable or perameter.
+Typescript is a Programing language that is Strongly typed, which means you have to declare the kind of data type inside a variable or perameter. Typescript is a SuperSet of Javascript Which means that TypeScript is basicaly Javascript but with added features.
+
+Here is some example code
+
+```Typescript
+// Data Type | string
+const name: string = "khaled";
+
+// Data Type | Number (integer and Floats are number here)
+let age: number = 18;
+
+// Data Type | Boolean
+var Cool: boolean = true;
+
+// Data Type | Any (This is basically dynamicaly typed)
+let car: any = "BMW";
+
+function greeting(name: string, age: number, colourful: boolean) {
+console.log("Hi ${name}, you are ${age}, and you are ${Cool}");
+}
+greeting(name, age, colourful);
+```
+
+## React file hierarchy
 
 
-
-## The file structure
 
 
