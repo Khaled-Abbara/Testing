@@ -45,7 +45,7 @@ console.log("Hi ${name}, you are ${age}, and you are ${Cool}");
 }
 greeting(name, age, colourful);
 ```
-## What is TSX
+## What is tsx
 It is just like JSX but with The added features of Typescript.
 
 ## What is Vite?
