@@ -1,4 +1,5 @@
 # Summary of Session One
+By: Khaled Abbara
 
 ## What is React?
 React is a frontend library developed by facebook that uses a virtual DOM to keep track of what the user does  instead of updating the DOM.
