@@ -51,6 +51,9 @@ console.log("Hi ${name}, you are ${age}, and you are ${Cool}");
 }
 greeting(name, age, colourful);
 ```
+## What is TSX
+
+It is just like JSX but with The added features of Typescript.
 
 ## Hierarchy in React
 
@@ -74,7 +77,7 @@ createRoot(document.getElementById('root')!).render(
 
 3. App.tsx which containes componenets of your liking
 
-code example:
+code:
 ```Javascript
 function App() {
   return (
@@ -87,7 +90,3 @@ function App() {
   );
 }
 ```
-
-
-
-
